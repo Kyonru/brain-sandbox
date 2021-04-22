@@ -1,0 +1,13 @@
+{
+  "name": "brain-sandbox",
+  "version": "0.0.1",
+  "description": "Test things out",
+  "main": "index.js",
+  "repository": "https://github.com/Kyonru/brain-sandbox.git",
+  "author": "kyonru",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
