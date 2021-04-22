@@ -12,7 +12,7 @@
         "node_modules/",
       ],
       "typings/*": [
-        "src/typings/*"
+        "src/@types/*"
       ]
     },
   },
