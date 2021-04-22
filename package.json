@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "build": "tsc --project ./",
-    "start": "nodemon index.ts"
+    "start": "node index.ts",
+    "dev": "nodemon index.ts"
   },
   "engines": {
     "node": "15.11.0"
