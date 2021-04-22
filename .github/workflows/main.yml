@@ -29,9 +29,5 @@ jobs:
         with:
           node-version: '15.11.0'
 
-      - uses: borales/actions-yarn@v2.3.0
-        with:
-          cmd: install # will run `yarn install` command
-      - uses: borales/actions-yarn@v2.3.0
-        with:
-          cmd: jest # will run `yarn test` command
+      - run: yarn install
+      - run: yarn test
