@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "postinstall": "yarn build",
     "build": "tsc --project ./",
     "start": "node index.ts",
     "dev": "nodemon index.ts"
