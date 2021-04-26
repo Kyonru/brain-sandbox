@@ -1,4 +1,9 @@
-export interface IResource {
-  create(data: any): any
-  findMany(): any[]
+export interface IResource<T> {
+  create(data: T): T;
+  findMany(): T[];
+}
+
+export interface Movie {
+  name: string;
+  rating: number;
 }

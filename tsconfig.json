@@ -1,25 +1,25 @@
 {
-  "compilerOptions": { "strict": true, 
-    "forceConsistentCasingInFileNames": true  ,
-    "target": "es5",
-    "module": "commonjs",
+  "compilerOptions": {
+    "strict": true, 
+    // "forceConsistentCasingInFileNames": true  ,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "target": "esnext",
     "outDir": "dist",
-    "sourceMap": false,
+    "sourceMap": true,
     "esModuleInterop": true,  
-    "baseUrl": ".",
-    "paths": {
-      "*": [
-        "node_modules/",
-      ],
-      "typings/*": [
-        "src/@types/*"
-      ]
-    },
+    "baseUrl": "./src",
+    "module": "commonjs",
+    "pretty": true,
+    "typeRoots" : ["./node_modules/@types", "./src/@types"],
+    "resolveJsonModule": true
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
   ],
   "exclude": [
-    "src/test/**/*.spec.ts"
+    "node_modules",
+    "jest.config.js"
   ]
 }
