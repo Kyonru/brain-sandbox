@@ -1,0 +1,39 @@
+{
+  "development": {
+    "username": "haruhi",
+    "password": "6MTQb.FfTbG*T33g.pc_mXVC",
+    "database": "nagato",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": true,
+    "force": true,
+    "timezone": "+00:00",
+    "db_ssl": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "diapa",
+    "database": "app-test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": true,
+    "force": true,
+    "timezone": "+00:00",
+    "db_ssl": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "diapa",
+    "database": "app-tes",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": true,
+    "force": true,
+    "timezone": "+00:00",
+    "db_ssl": false,
+    "use_env_variable": "DATABASE_URL"
+  }
+}

@@ -19,7 +19,7 @@ declare global {
       NODE_ENV: 'development' | 'production';
       DB_PASS: string;
       DB_NAME: string;
-      DB_PORT: number;
+      DB_PORT: string;
       DB_PROVIDER: string;
       DB: string;
       DB_USER: string;
